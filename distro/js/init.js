@@ -103,3 +103,19 @@
 
 
  });
+
+ $('.alpha').hover(function () {
+     $('.alphatext').toggleClass('showtext');
+   });
+
+     $('.beta').hover(function () {
+         $('.betatext').toggleClass('showtext');
+       });
+
+         $('.delta').hover(function () {
+             $('.deltatext').toggleClass('showtext');
+           });
+
+             $('.gamma').hover(function () {
+                 $('.gammatext').toggleClass('showtext');
+               });
